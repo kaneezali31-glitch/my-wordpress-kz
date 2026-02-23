@@ -1,0 +1,98 @@
+/*
+ Theme Name:   Shop Zita
+ Theme URI:    https://wpzita.com/
+ Description:  Shop Zita is a child theme of zita WordPress theme, This theme add frontend layout switcher for shop page. Zita is best theme to create a perfect shop website using WooCommere. Zita is completely builder based theme, With super fast and highly customizable options. Zita works with any of your favourite page builder like Elementor, Visual Composer, Beaver Builder, SiteOrigin, Divi, Brizy etc. Best Suitable for creating any type of website such a corporate, store, agency, blog, portfolio, restaurant, wedding, construction, hospital, school, interior, car workshop, life coach, wine shop, barber shop, furniture shop, yoga, resume, charity, digital marketing etc. Zita includes 8 unique header layout and 8 footer widget layout which makes it extremely powerful. Some more amazing feature are #Woocommerce ready #RTL Ready #Full Responsive #Edit settings in tablet & mobile #Top header #Bottom header #Top footer #Bottom Footer #Transparent Header. Looking for perfect base theme? Looking for perfect multipurpose theme? No need to Look further! Just go with Zita demos: https://wpzita.com/. Zita is built with best SEO practice and best friend of Woocommerce and Elementor.
+ Author:       WpZita Team
+ Author URI:   https://wpzita.com/contact-us/
+ Template:     zita
+ Version:      1.4
+ Requires at least: 5.5
+ Tested up to: 6.2
+ Requires PHP: 5.5
+ License:      GNU General Public License v3 or later
+ License URI:   http://www.gnu.org/licenses/gpl-3.0.html
+ Tags: two-columns, right-sidebar, custom-menu, custom-background, editor-style, translation-ready, full-width-template, flexible-header, sticky-post, theme-options, one-column, e-commerce, blog, photography, threaded-comments, custom-colors 
+ Text Domain:  shop-zita
+*/
+.zita-list-grid-switcher {
+    float: right;
+    margin-right:0px;
+    position: relative;
+}
+.zita-list-grid-switcher a{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background:#ebe9eb;
+    display: block;
+    float: left;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 20px;
+    line-height: 42px;
+    margin-right:10px;
+}
+.zita-list-grid-switcher a.selected, .zita-list-grid-switcher a:hover{
+background:#006799;
+border: 1px solid #006799;
+color: #fff;
+}
+.shop-zita-product-excerpt,.zita-list-view .zta-woo-shop-product-description{
+    display: none;
+}
+.zita-list-view .shop-zita-product-excerpt{
+    display: block;
+}
+
+.woocommerce-page .zita-list-view ul.products li.product {
+    float: left;
+    width: 100%!important;
+    margin-right: 0%!important;
+    margin-bottom: 15px!important;
+}
+.zita-list-view .zita-shop-thumbnail-wrap{
+width:35%;
+float:left;
+}
+.zita-list-view .zita-shop-summary-wrap{
+width:65%;
+float:left;
+    padding-left: 20px;
+}
+#shop-product-wrap ul.products{
+    padding-top: 15px;
+}
+
+.woocommerce .zita-list-view ul.products li.product .onsale {
+    top: 0;
+    right:auto;
+    left:0;
+    margin: -.5em -.5em 0 0;
+}
+
+.zita-list-view ul.products  .zita-shadow-5 .zita-shop-summary-wrap,.zita-list-view ul.products  .zita-shadow-4 .zita-shop-summary-wrap,.zita-list-view ul.products  .zita-shadow-3 .zita-shop-summary-wrap,.zita-list-view ul.products  .zita-shadow-2 .zita-shop-summary-wrap,.zita-list-view ul.products  .zita-shadow-1 .zita-shop-summary-wrap{
+   padding-top:15px!important;
+}
+.powered-by-wordpress a{
+    color: #111;
+}
+.zita-menu > li > a{
+    padding: 16px;
+}
+@media screen and (max-width: 1024px){
+.mobile-menu-active .sider.overcenter .zita-menu, .mobile-above-menu-active .sider.overcenter .zita-menu, .mobile-bottom-menu-active .sider.overcenter .zita-menu {
+    margin-right: 9px;
+    margin-left:  9px;
+}
+}
+@media screen and (max-width: 767px){
+#respond.comment-respond #submit{
+    padding: 9px 16px;
+}
+.bottom-footer-container{
+    padding: 9px 0;
+}
+h2{
+    font-size: 21px;
+}
+}
